@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .list{
+            display: -webkit-box;
+            -webkit-box-pack:center;
+        }
+        .list li{
+            -webkit-box-flex: 1;
+
+        }
+        .list li:nth-child(odd){
+            background: pink;
+        }
+        .list li:nth-child(even){
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<ul class="list">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+</ul>
+
+</body>
+</html>
